@@ -1,0 +1,12 @@
+#Creative Tab
+itemGroup.lowtech=Lowtech
+
+#Blocks
+tile.barrel.oak.name=Oak Wood Barrel
+tile.barrel.spruce.name=Spruce Wood Barrel
+tile.barrel.birch.name=Birch Wood Barrel
+tile.barrel.jungle.name=Jungle Wood Barrel
+tile.barrel.acacia.name=Acacia Wood Barrel
+tile.barrel.dark.name=Dark Oak Wood Barrel
+
+#Items

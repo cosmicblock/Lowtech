@@ -1,0 +1,16 @@
+[
+{
+  "modid": "lowtech",
+  "name": "Lowtech",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["cosmicblock"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
