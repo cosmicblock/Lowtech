@@ -25,7 +25,6 @@ public class BarrelItemBlock extends ItemBlock
 		this.setMaxStackSize(1);
 		this.setHasSubtypes(true);
 		this.setUnlocalizedName(Names.Blocks.BARREL);
-		setCreativeTab(CreativeTabs.tabBlock);
 	}
 	
 	@Override

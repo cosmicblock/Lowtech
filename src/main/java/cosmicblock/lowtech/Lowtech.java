@@ -2,6 +2,7 @@ package cosmicblock.lowtech;
 
 import cosmicblock.lowtech.block.ModBlocks;
 import cosmicblock.lowtech.client.gui.GuiHandler;
+import cosmicblock.lowtech.config.Config;
 import cosmicblock.lowtech.crafting.Crafting;
 import cosmicblock.lowtech.item.ModItems;
 import cosmicblock.lowtech.proxy.IProxy;
@@ -26,6 +27,7 @@ public class Lowtech
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
+    	Config.init(event.getSuggestedConfigurationFile());
     	ModItems.init();
     	ModBlocks.init();
     	Crafting.init();
