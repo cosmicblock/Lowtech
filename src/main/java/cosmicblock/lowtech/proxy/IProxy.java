@@ -4,8 +4,7 @@ import java.io.File;
 
 public interface IProxy
 {
-
-	void initRenderingAndTextures();
-	void registerTileEntities();
+	public abstract void initRenderingAndTextures();
 	
+	public abstract void registerTileEntities();
 }

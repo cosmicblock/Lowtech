@@ -18,9 +18,7 @@ public class ClientProxy extends CommonProxy
 	public void initRenderingAndTextures()
 	{
 		RenderIds.barrel = RenderingRegistry.getNextAvailableRenderId();
-		
-		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityBarrel.class, new TileEntityBarrelRenderer());
-		
 		MinecraftForgeClient.registerItemRenderer(Item.getItemFromBlock(ModBlocks.barrel), new RenderBarrelItemBlock(new ModelBarrel()));
+		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityBarrel.class, new TileEntityBarrelRenderer());
 	}
 }

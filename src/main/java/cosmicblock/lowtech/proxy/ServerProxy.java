@@ -1,6 +1,11 @@
 package cosmicblock.lowtech.proxy;
 
-public abstract class ServerProxy extends CommonProxy
-{
 
+public class ServerProxy extends CommonProxy
+{
+	@Override
+	public void initRenderingAndTextures() 
+	{
+		
+	}
 }

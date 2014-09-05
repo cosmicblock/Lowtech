@@ -7,8 +7,6 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 public abstract class CommonProxy implements IProxy 
 {
-	
-	@Override
 	public void registerTileEntities()
 	{
 		GameRegistry.registerTileEntity(TileEntityBarrel.class, "tile." + Names.Blocks.BARREL);
